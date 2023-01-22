@@ -1,8 +1,7 @@
 name: Notifier
 
-on: 
-  issues:
-    types: [opened]
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
