@@ -1,6 +1,8 @@
 name: Notifier
 
-on: [push]
+on:
+  issues:
+    types: [opened]
 
 jobs:
   build:
